@@ -1,6 +1,11 @@
 ## Getting Started
 
-First, run the development server:
+First, create a .env.local file 
+which has
+```bash
+NEXT_SPACEX_API_ENDPOINT=https://api.spacexdata.com/v4/launches
+```
+Second, run the development server:
 
 ```bash
 npm run dev
