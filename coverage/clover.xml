@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1679601185410" clover="3.2.0">
+  <project timestamp="1679601185410" name="All files">
+    <metrics statements="32" coveredstatements="25" conditionals="20" coveredconditionals="16" methods="17" coveredmethods="12" elements="69" coveredelements="53" complexity="0" loc="32" ncloc="32" packages="4" files="5" classes="5"/>
+    <package name="pages">
+      <metrics statements="18" coveredstatements="11" conditionals="3" coveredconditionals="1" methods="8" coveredmethods="3"/>
+      <file name="index.tsx" path="/Users/rizkybayuoktavian/Desktop/PLAYGROUND/launches-pairing/pages/index.tsx">
+        <metrics statements="18" coveredstatements="11" conditionals="3" coveredconditionals="1" methods="8" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="94" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="Footer.tsx" path="/Users/rizkybayuoktavian/Desktop/PLAYGROUND/launches-pairing/src/components/Footer.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="/Users/rizkybayuoktavian/Desktop/PLAYGROUND/launches-pairing/src/components/Header.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.buttons">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Button.tsx" path="/Users/rizkybayuoktavian/Desktop/PLAYGROUND/launches-pairing/src/components/buttons/Button.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.cards">
+      <metrics statements="5" coveredstatements="5" conditionals="17" coveredconditionals="15" methods="3" coveredmethods="3"/>
+      <file name="RocketCard.tsx" path="/Users/rizkybayuoktavian/Desktop/PLAYGROUND/launches-pairing/src/components/cards/RocketCard.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="17" coveredconditionals="15" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="53" count="10" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

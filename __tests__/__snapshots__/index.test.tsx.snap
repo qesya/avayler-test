@@ -1,0 +1,736 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test HomePage Should renders HomePage 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <nav
+          class="fixed w-full z-30 py-6 bg-black px-10 md:px-0"
+        >
+          <div
+            class="container mx-auto flex flex-row justify-between items-center"
+          >
+            <div>
+              <h4
+                class="font-Rajdhani text-white text-2xl"
+                data-testid="Test-Header"
+              >
+                SpaceX
+              </h4>
+            </div>
+            <div
+              class="flex flex-row justify-center items-center"
+            />
+          </div>
+        </nav>
+        <section
+          class="h-screen min-h-full bg-black"
+        >
+          <div
+            class="container mx-auto flex flex-col h-full justify-around px-10 md:px-0"
+          >
+            <div
+              class="flex flex-col mt-48"
+            >
+              <h1
+                class="text-3xl md:text-6xl mt-16 font-AbrilFatface text-white md:w-4/12 leading-none"
+              >
+                What is SpaceX ?
+              </h1>
+              <p
+                class="font-Rajdhani text-white text-base md:w-4/12 mt-10"
+              >
+                SpaceX is a private space company founded by Elon Musk in 2002 that designs, manufactures, and launches rockets and spacecraft.
+              </p>
+              <div>
+                <button
+                  class="bg-red-600 py-4 px-16 flex self-start mt-10 rounded-md"
+                  data-testid="Test-Button"
+                >
+                  <p
+                    class="font-AbrilFatface text-white hover:text-black w-full"
+                    data-testid="Test-Title"
+                  >
+                    Discover Rockets
+                  </p>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col md:flex-row mt-16"
+            >
+              <div
+                class="flex flex-row items-center"
+              >
+                <h4
+                  class="text-white font-AbrilFatface text-3xl md:text-6xl mr-4"
+                >
+                  10
+                </h4>
+                <h4
+                  class="text-white font-AbrilFatface text-3xl md:w-3/12 leading-none"
+                >
+                  Top Launches
+                </h4>
+              </div>
+            </div>
+            <img
+              alt=""
+              class="hidden md:flex md:absolute md:right-0 md:top-0 md:z-0 md:bottom-0 select-none"
+              src="/images/planet.png"
+            />
+          </div>
+        </section>
+        <section
+          class="py-20 bg-black"
+          id="target"
+        >
+          <div
+            class="container mx-auto flex flex-col h-full px-10 md:px-0"
+          >
+            <h1
+              class="font-AbrilFatface text-4xl text-white mt-20"
+            >
+              List Of Launches
+            </h1>
+            <hr
+              class="bg-white h-1 w-3/12 mt-6 mb-10"
+            />
+            <div
+              class="flex flex-col md:flex-row justify-between my-10"
+            >
+              <div
+                class="flex flex-row"
+              >
+                <h2
+                  class="font-AbrilFatface text-5xl text-white mr-6"
+                >
+                  1
+                </h2>
+                <div
+                  class="flex flex-col"
+                >
+                  <h2
+                    class="font-AbrilFatface text-5xl text-white mb-4"
+                  >
+                    FalconSat
+                  </h2>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    ID : 
+                    5eb87cd9ffd86e000604b32a
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Payloads : 
+                    5eb0e4b5b6c3bb0006eeb1e1
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Date: 
+                    Saturday, March 25, 2006 5:30 AM
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Cores : 
+                    5e9e289df35918033d3b2623
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Status : 
+                    FAILURE 🚩
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Reason of failure : 
+                  </h4>
+                  <div
+                    class="flex-1 px-8"
+                    data-testid="Test-Failure"
+                  >
+                    <p
+                      class="font-Rajdhani text-white text-2xl"
+                    >
+                      🔴 Reason : 
+                      merlin engine failure
+                    </p>
+                    <p
+                      class="font-Rajdhani text-white text-2xl"
+                    >
+                      🔴 Altitude: 
+                      -
+                    </p>
+                    <p
+                      class="font-Rajdhani text-white text-2xl"
+                    >
+                      🔴 Time: 
+                      33
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="w-24 h-24"
+                data-testid="Test-Image"
+                src="https://images2.imgbox.com/94/f2/NN6Ph45r_o.png"
+              />
+            </div>
+            <div
+              class="flex flex-col md:flex-row justify-between my-10"
+            >
+              <div
+                class="flex flex-row"
+              >
+                <h2
+                  class="font-AbrilFatface text-5xl text-white mr-6"
+                >
+                  2
+                </h2>
+                <div
+                  class="flex flex-col"
+                >
+                  <h2
+                    class="font-AbrilFatface text-5xl text-white mb-4"
+                  >
+                    DemoSat
+                  </h2>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    ID : 
+                    5eb87cdaffd86e000604b32b
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Payloads : 
+                    5eb0e4b6b6c3bb0006eeb1e2
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Date: 
+                    Wednesday, March 21, 2007 8:10 AM
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Cores : 
+                    5e9e289ef35918416a3b2624
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Status : 
+                    FAILURE 🚩
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Reason of failure : 
+                  </h4>
+                  <div
+                    class="flex-1 px-8"
+                    data-testid="Test-Failure"
+                  >
+                    <p
+                      class="font-Rajdhani text-white text-2xl"
+                    >
+                      🔴 Reason : 
+                      harmonic oscillation leading to premature engine shutdown
+                    </p>
+                    <p
+                      class="font-Rajdhani text-white text-2xl"
+                    >
+                      🔴 Altitude: 
+                      289
+                    </p>
+                    <p
+                      class="font-Rajdhani text-white text-2xl"
+                    >
+                      🔴 Time: 
+                      301
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="w-24 h-24"
+                data-testid="Test-Image"
+                src="https://images2.imgbox.com/f9/4a/ZboXReNb_o.png"
+              />
+            </div>
+            <div
+              class="flex flex-col md:flex-row justify-between my-10"
+            >
+              <div
+                class="flex flex-row"
+              >
+                <h2
+                  class="font-AbrilFatface text-5xl text-white mr-6"
+                >
+                  3
+                </h2>
+                <div
+                  class="flex flex-col"
+                >
+                  <h2
+                    class="font-AbrilFatface text-5xl text-white mb-4"
+                  >
+                    Iridium NEXT Mission 1
+                  </h2>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    ID : 
+                    5eb87cfdffd86e000604b34c
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Payloads : 
+                    5eb0e4c2b6c3bb0006eeb208
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Date: 
+                    Sunday, January 15, 2017 12:54 AM
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Cores : 
+                    5e9e28a3f359189e3a3b2645
+                  </h4>
+                  <h4
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    Status : 
+                    SUCCESS 🚀
+                  </h4>
+                </div>
+              </div>
+              <img
+                class="w-24 h-24"
+                data-testid="Test-Image"
+                src="https://images2.imgbox.com/89/2a/bkI6LN0R_o.png"
+              />
+            </div>
+          </div>
+        </section>
+        <div
+          class="bg-black pt-20 pb-16"
+        >
+          <div
+            class="container mx-auto flex flex-row justify-center"
+          >
+            <h3
+              class="text-white text-3xl font-Rajdhani"
+            >
+              Pasquale Palena © 2023
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <nav
+        class="fixed w-full z-30 py-6 bg-black px-10 md:px-0"
+      >
+        <div
+          class="container mx-auto flex flex-row justify-between items-center"
+        >
+          <div>
+            <h4
+              class="font-Rajdhani text-white text-2xl"
+              data-testid="Test-Header"
+            >
+              SpaceX
+            </h4>
+          </div>
+          <div
+            class="flex flex-row justify-center items-center"
+          />
+        </div>
+      </nav>
+      <section
+        class="h-screen min-h-full bg-black"
+      >
+        <div
+          class="container mx-auto flex flex-col h-full justify-around px-10 md:px-0"
+        >
+          <div
+            class="flex flex-col mt-48"
+          >
+            <h1
+              class="text-3xl md:text-6xl mt-16 font-AbrilFatface text-white md:w-4/12 leading-none"
+            >
+              What is SpaceX ?
+            </h1>
+            <p
+              class="font-Rajdhani text-white text-base md:w-4/12 mt-10"
+            >
+              SpaceX is a private space company founded by Elon Musk in 2002 that designs, manufactures, and launches rockets and spacecraft.
+            </p>
+            <div>
+              <button
+                class="bg-red-600 py-4 px-16 flex self-start mt-10 rounded-md"
+                data-testid="Test-Button"
+              >
+                <p
+                  class="font-AbrilFatface text-white hover:text-black w-full"
+                  data-testid="Test-Title"
+                >
+                  Discover Rockets
+                </p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row mt-16"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <h4
+                class="text-white font-AbrilFatface text-3xl md:text-6xl mr-4"
+              >
+                10
+              </h4>
+              <h4
+                class="text-white font-AbrilFatface text-3xl md:w-3/12 leading-none"
+              >
+                Top Launches
+              </h4>
+            </div>
+          </div>
+          <img
+            alt=""
+            class="hidden md:flex md:absolute md:right-0 md:top-0 md:z-0 md:bottom-0 select-none"
+            src="/images/planet.png"
+          />
+        </div>
+      </section>
+      <section
+        class="py-20 bg-black"
+        id="target"
+      >
+        <div
+          class="container mx-auto flex flex-col h-full px-10 md:px-0"
+        >
+          <h1
+            class="font-AbrilFatface text-4xl text-white mt-20"
+          >
+            List Of Launches
+          </h1>
+          <hr
+            class="bg-white h-1 w-3/12 mt-6 mb-10"
+          />
+          <div
+            class="flex flex-col md:flex-row justify-between my-10"
+          >
+            <div
+              class="flex flex-row"
+            >
+              <h2
+                class="font-AbrilFatface text-5xl text-white mr-6"
+              >
+                1
+              </h2>
+              <div
+                class="flex flex-col"
+              >
+                <h2
+                  class="font-AbrilFatface text-5xl text-white mb-4"
+                >
+                  FalconSat
+                </h2>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  ID : 
+                  5eb87cd9ffd86e000604b32a
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Payloads : 
+                  5eb0e4b5b6c3bb0006eeb1e1
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Date: 
+                  Saturday, March 25, 2006 5:30 AM
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Cores : 
+                  5e9e289df35918033d3b2623
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Status : 
+                  FAILURE 🚩
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Reason of failure : 
+                </h4>
+                <div
+                  class="flex-1 px-8"
+                  data-testid="Test-Failure"
+                >
+                  <p
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    🔴 Reason : 
+                    merlin engine failure
+                  </p>
+                  <p
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    🔴 Altitude: 
+                    -
+                  </p>
+                  <p
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    🔴 Time: 
+                    33
+                  </p>
+                </div>
+              </div>
+            </div>
+            <img
+              class="w-24 h-24"
+              data-testid="Test-Image"
+              src="https://images2.imgbox.com/94/f2/NN6Ph45r_o.png"
+            />
+          </div>
+          <div
+            class="flex flex-col md:flex-row justify-between my-10"
+          >
+            <div
+              class="flex flex-row"
+            >
+              <h2
+                class="font-AbrilFatface text-5xl text-white mr-6"
+              >
+                2
+              </h2>
+              <div
+                class="flex flex-col"
+              >
+                <h2
+                  class="font-AbrilFatface text-5xl text-white mb-4"
+                >
+                  DemoSat
+                </h2>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  ID : 
+                  5eb87cdaffd86e000604b32b
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Payloads : 
+                  5eb0e4b6b6c3bb0006eeb1e2
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Date: 
+                  Wednesday, March 21, 2007 8:10 AM
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Cores : 
+                  5e9e289ef35918416a3b2624
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Status : 
+                  FAILURE 🚩
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Reason of failure : 
+                </h4>
+                <div
+                  class="flex-1 px-8"
+                  data-testid="Test-Failure"
+                >
+                  <p
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    🔴 Reason : 
+                    harmonic oscillation leading to premature engine shutdown
+                  </p>
+                  <p
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    🔴 Altitude: 
+                    289
+                  </p>
+                  <p
+                    class="font-Rajdhani text-white text-2xl"
+                  >
+                    🔴 Time: 
+                    301
+                  </p>
+                </div>
+              </div>
+            </div>
+            <img
+              class="w-24 h-24"
+              data-testid="Test-Image"
+              src="https://images2.imgbox.com/f9/4a/ZboXReNb_o.png"
+            />
+          </div>
+          <div
+            class="flex flex-col md:flex-row justify-between my-10"
+          >
+            <div
+              class="flex flex-row"
+            >
+              <h2
+                class="font-AbrilFatface text-5xl text-white mr-6"
+              >
+                3
+              </h2>
+              <div
+                class="flex flex-col"
+              >
+                <h2
+                  class="font-AbrilFatface text-5xl text-white mb-4"
+                >
+                  Iridium NEXT Mission 1
+                </h2>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  ID : 
+                  5eb87cfdffd86e000604b34c
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Payloads : 
+                  5eb0e4c2b6c3bb0006eeb208
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Date: 
+                  Sunday, January 15, 2017 12:54 AM
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Cores : 
+                  5e9e28a3f359189e3a3b2645
+                </h4>
+                <h4
+                  class="font-Rajdhani text-white text-2xl"
+                >
+                  Status : 
+                  SUCCESS 🚀
+                </h4>
+              </div>
+            </div>
+            <img
+              class="w-24 h-24"
+              data-testid="Test-Image"
+              src="https://images2.imgbox.com/89/2a/bkI6LN0R_o.png"
+            />
+          </div>
+        </div>
+      </section>
+      <div
+        class="bg-black pt-20 pb-16"
+      >
+        <div
+          class="container mx-auto flex flex-row justify-center"
+        >
+          <h3
+            class="text-white text-3xl font-Rajdhani"
+          >
+            Pasquale Palena © 2023
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
